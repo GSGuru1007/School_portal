@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mynav{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    background: rgb(155, 155, 155);
+}
+.h-a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(14, 14, 14);
+    margin-right: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(/img/backw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
+#container {
+
+    scrollbar-width: none;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+main{
+    margin-top: 200px;
+}
+
+body{
+    overflow: hidden;
+}
+
+#im {
+    display: inline-block;
+}
+
+#im > div {
+    display: inline-block;
+    text-align: center;
+    margin: 0 5em;
+
+}
+h2{
+    margin-top: 1em;
+    border: 1px solid rgb(19, 153, 255);
+    background-color: rgb(19, 153, 255);
+    border-radius: 15px;
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: 1ms;
+    margin-top: 4em;
+}
+
+img:hover{
+    box-shadow: 2px 2px 2em black;
+}
+
+
+#CV{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    #but{
+        width: fit-content;
+        font-size: 1em;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        border: 0.1px solid white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 1px 1px 1em black;
+        transition:background-color  1s;
+    }
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    input{
+        font-size: x-large;
+        border-radius: 5px;
+    }
+}
+#but:hover{
+    background-color: rgb(7, 7, 7);
+}
+#in{
+    padding: 20px;
+    background-color: rgb(12, 186, 255);
+    border-radius: 15px;
+}
